@@ -1,12 +1,12 @@
 # Seller
 
 ### Flutter-Market 를 완성한 사람들🤗
-> #### Seller🧑🏻‍🌾
+> #### Seller part🧑🏻‍🌾
 > 강예진(GitHub : [k-ye0415](https://github.com/k-ye0415))<br>
 > 박재원(GitHub : [walking-jw](https://github.com/walking-jw))<br>
 > 조효경(GitHub : [hogang1223](https://github.com/hogang1223))
 >
->#### Client🧑🏻‍💼
+>#### Client part🧑🏻‍💼
 > 이도희(GitHub : [Lee-Dohee](https://github.com/Lee-Dohee))<br>
 > 이승연(GitHub : [SeungYeon-E](https://github.com/SeungYeon-E))<br>
 > 최지연(GitHub : [jiyeon29](https://github.com/jiyeon29))
