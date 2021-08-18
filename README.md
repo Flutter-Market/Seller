@@ -4,12 +4,12 @@
 > #### Seller🧑🏻‍🌾
 > 강예진<br>
 > 박재원(GitHub : [walking-jw](https://github.com/walking-jw))<br>
-> 조효경(GitHub : hogang1223)
+> 조효경(GitHub : [hogang1223](https://github.com/hogang1223))
 >
 >#### Client🧑🏻‍💼
-> 이도희(GitHub : )<br>
-> 이승연(GitHub : SeungYeon-E)<br>
-> 최지연(GitHub : )
+> 이도희(GitHub : [Lee-Dohee](https://github.com/Lee-Dohee))<br>
+> 이승연(GitHub : [SeungYeon-E](https://github.com/SeungYeon-E))<br>
+> 최지연(GitHub : [jiyeon29](https://github.com/jiyeon29))
 >
 
 ### Flutter-Market 만든 날짜🌟
