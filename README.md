@@ -3,7 +3,7 @@
 ### Flutter-Market 를 완성한 사람들🤗
 > #### Seller🧑🏻‍🌾
 > 강예진<br>
-> 박재원(GitHub : walking-jw)<br>
+> 박재원(GitHub : [walking-jw](https://github.com/walking-jw))<br>
 > 조효경(GitHub : hogang1223)
 >
 >#### Client🧑🏻‍💼
