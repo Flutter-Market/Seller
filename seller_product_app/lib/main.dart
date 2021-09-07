@@ -26,6 +26,9 @@ class SellerProduct extends StatefulWidget {
 
 class _SellerProductState extends State<SellerProduct> {
   TextEditingController searchController = TextEditingController();
+  int allProductCount = 0;
+  int salesProductCount = 0;
+  int nonSalesProductCount = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -40,10 +43,59 @@ class _SellerProductState extends State<SellerProduct> {
               style: TextStyle(
                 fontSize: 20,
               ),),
-              TextField(
-                controller: searchController,
-                decoration: InputDecoration(labelText: "검색어를 입력하세요"),
-                keyboardType: TextInputType.text,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    constraints: BoxConstraints.tightFor(width: 350),
+                    child: TextField(
+                      controller: searchController,
+                      decoration: InputDecoration(labelText: "검색어를 입력하세요"),
+                      keyboardType: TextInputType.text,
+                      
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: (){}, 
+                    icon: Icon(Icons.search)
+                    )
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("총 상품"),
+                  Text(
+                    "$allProductCount 건"
+                    )
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("판매중"),
+                  Text(
+                    "$salesProductCount 건"
+                    )
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("품절"),
+                  Text(
+                    "$nonSalesProductCount 건"
+                    )
+                ],
+              ),
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: Container(
+                  child: ElevatedButton(
+                onPressed: (){}, 
+                child: Text("상품 등록")
+                ),
+                ),
               )
             ],
           ),
