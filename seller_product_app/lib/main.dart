@@ -101,7 +101,7 @@ class _SellerProductState extends State<SellerProduct> {
                           FocusScope.of(context).unfocus();
 
                           Navigator.push(context, MaterialPageRoute(builder: (context) {
-                            return SearchProduct();
+                            return SearchProduct(searchText: searchController.text,);
                           }));
                         }, 
                         icon: Icon(
