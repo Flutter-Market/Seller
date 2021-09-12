@@ -110,8 +110,9 @@ class _SearchProductState extends State<SearchProduct> {
                               children: [
                                 Row(
                                   children: [
-                                    // Image.asset(
-                                    //   "images/pica002.png"
+                                    // Image.network(
+                                    //   searchData[position]["image"],
+                                    //   height: 100, width: 100, fit: BoxFit.fill,
                                     //   ),
                                       Column(
                                         children: [

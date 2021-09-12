@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:seller_product_app/allproduct.dart';
 import 'dart:convert';
 
 import 'package:seller_product_app/searchproduct.dart';
@@ -52,6 +53,13 @@ class _SellerProductState extends State<SellerProduct> {
       child: Scaffold(
         appBar: AppBar(
           title: Text("떨이마켓"),
+          actions: [
+            GestureDetector(
+              onTap: (){
+                print("로그인으로 가자@@@");
+              },
+              child: Text("로그인"))
+          ],
         ),
       body: Column(
         children: [
@@ -125,6 +133,9 @@ class _SellerProductState extends State<SellerProduct> {
                     child: InkWell(
                       onTap: (){
                         print("총상품 클릭");
+                        Navigator.push(context, MaterialPageRoute(builder: (context) {
+                          return AllProduct();
+                        }));
                       },
                       child: Row(
                         children: [
